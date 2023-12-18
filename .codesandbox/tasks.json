@@ -1,0 +1,43 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "grunt:dev": {
+      "name": "grunt:dev",
+      "command": "npm run grunt:dev",
+      "runAtStart": false
+    },
+    "grunt:rel": {
+      "name": "grunt:rel",
+      "command": "npm run grunt:rel",
+      "runAtStart": false
+    },
+    "grunt:watch": {
+      "name": "grunt:watch",
+      "command": "npm run grunt:watch",
+      "runAtStart": false
+    },
+    "grunt:lint": {
+      "name": "grunt:lint",
+      "command": "npm run grunt:lint",
+      "runAtStart": false
+    },
+    "develop": {
+      "name": "develop",
+      "command": "npm run develop",
+      "runAtStart": false
+    }
+  }
+}

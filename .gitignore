@@ -1,6 +1,5 @@
 .DS_Store
 node_modules/
-build/
 secrets.json
 streamkeys-dev.zip
 streamkeys.zip
